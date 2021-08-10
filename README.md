@@ -14,3 +14,8 @@
 * cash web workers for offline
 * setting schortcut sync to database.
 
+## issues 
+
+* git mearge conflict
+
+
