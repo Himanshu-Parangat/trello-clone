@@ -12,5 +12,5 @@
 * seo cross-plateform
 * real time socket.io
 * cash web workers for offline
-* setting schortcut sync to database.
+* setting schortcut sync to database
 
