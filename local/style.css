@@ -80,7 +80,7 @@ body::-webkit-scrollbar {
 }
 
 .navbar {
-  width: 1%;
+  width: 0%;
   height: 100%;
   background-color: #111;
   position: fixed;
@@ -89,7 +89,7 @@ body::-webkit-scrollbar {
   left: 0;
   overflow-x: hidden;
   padding-top: 60px;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .navbar-nav {
@@ -102,6 +102,11 @@ body::-webkit-scrollbar {
   justify-content: center;
 }
 
+.nav-item a{
+  color: white;
+  
+}
+
 /* #navtoggleclose{
     display: flex;
     align-items: center;
@@ -110,3 +115,13 @@ body::-webkit-scrollbar {
     width: auto;
     
 } */
+
+/* Position and style the close button (top right corner) */
+.navbar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white;
+  }

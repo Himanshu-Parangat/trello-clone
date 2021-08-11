@@ -10,6 +10,7 @@
 
   <body>
     <header class="header">
+      <!-- navbar icon left -->
       <div class="nav-icon">
         <span onclick="openNav()">
           <div class="nav-icon-bar"></div>
@@ -17,15 +18,9 @@
           <div class="nav-icon-bar"></div
         ></span>
       </div>
+      <!-- navbar -->
       <nav class="navbar" id="navbartoggel">
-        <div class="nav-icon">
-          <span onclick="closeNav()">
-            <div class="nav-icon-bar"></div>
-            <div class="nav-icon-bar"></div>
-            <div class="nav-icon-bar"></div
-          ></span>
-        </div>
-
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul class="navbar-nav">
           <li class="nav-item">
             <a href="#" class="nav-link" id="nav-icon">💖 close</a>
@@ -60,7 +55,9 @@
           </li>
         </ul>
       </nav>
+      <!-- company icon -->
       <a href="#" class="logo"> logo</a>
+      <!-- system tray -->
       <div class="system-tray">system tray</div>
     </header>
 
