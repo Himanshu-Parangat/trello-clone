@@ -142,3 +142,10 @@ body::-webkit-scrollbar {
   height: 16rem;
   margin: 4px;
 }
+
+.card{
+  background-color: yellowgreen;
+  height: 4rem;
+  width: auto;
+
+}
