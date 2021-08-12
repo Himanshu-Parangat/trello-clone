@@ -104,8 +104,15 @@ body::-webkit-scrollbar {
 
 .nav-item a{
   color: white;
+  margin: 0.5rem;
+  min-width: 12rem;
+  display: flex;
+  align-items: left;
   
 }
+/* add media quarry above */
+
+
 
 /* #navtoggleclose{
     display: flex;
@@ -119,8 +126,8 @@ body::-webkit-scrollbar {
 /* Position and style the close button (top right corner) */
 .navbar .closebtn {
     position: absolute;
-    top: 0;
-    right: 25px;
+    top: 15px;
+    right: 15px;
     font-size: 36px;
     margin-left: 50px;
     color: white;
